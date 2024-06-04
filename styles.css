@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,Arial;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(24, 23, 23);
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    border-radius: 10px;
+    background-color: rgba(34, 33, 33, 0.39);
+    padding: 110px 50px;
+    width: 350px;
+    box-shadow: 0 0 20px yellowgreen;
+}
+h1{
+    font-size: 38px;
+    margin-bottom: 33px;
+    text-shadow: 0 0 20px yellowgreen;
+    color: yellowgreen;
+    transform: text-shadow 1s;
+}
+h1:hover{
+    text-shadow: red;
+}
+input{
+    padding: 9px 25px;
+    margin-bottom: 13px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px yellowgreen;
+    border: 1px solid yellowgreen;
+    background-color: rgba(27, 26, 26, 0.699);
+    color: aliceblue;
+    transition: box-shadow 1s;
+}
+input:hover{
+    box-shadow: 0 0 13px rgb(216, 35, 35);
+    border: 1px solid rgb(216, 35, 35);
+}
+.box:hover{
+    transition: all .6s;
+    box-shadow: 0 0 13px rgb(216, 35, 35);
+    border: 1px solid rgb(216, 35, 35);
+}
+.contra{
+    color: rgb(125, 185, 138);
+}
+#con{
+    color: rgb(38, 216, 53);
+}
+#con:hover{
+    color: red;
+    text-decoration: underline;
+    transition: all .4s;
+}
+button{
+    margin: 20px 0;
+    padding: 9px 66px;
+    border-radius: 10px;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px white;
+    cursor: pointer;
+    transition: text-shadow .6s;
+    transition: box-shadow .6s;
+}
+button:hover{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    transition: text-shadow .3;
+    transition: box-shadow .3s;
+}
+.r{
+    color: yellowgreen;
+    text-shadow: 0 0 5px rgb(123, 255, 0);
+}
+.r:hover{
+    color: rgb(205, 50, 50);
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+}
+.bajo{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(17, 16, 16);
+    margin: 0;
+    display: flex;
+    color: yellowgreen;
+}
+.texto{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px auto;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid yellowgreen;
+    cursor: pointer;
+}
